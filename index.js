@@ -29,8 +29,18 @@ inquirer
   ])
   .then((response) => {
     let shape = new Circle() 
-    shape.setColor(response.username)
+    shape.setColor(response.name)
     console.log(shape)
-  }
-  );
+  })
+  .then((response) => {
+    let shape = new Triangle()
+    shape.setColor(response.name)
+    console.log(shape)
+  })
+  .then((response) => {
+    let shape = new Square()
+    shape.setColor(response.name)
+    console.log(shape)
+  });
+  
 
