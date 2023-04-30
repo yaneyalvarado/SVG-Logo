@@ -23,7 +23,7 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Choose the color for your shaoe',
+        message: 'Choose the color for your shape',
         name: 'shape color',
       } 
   ])
