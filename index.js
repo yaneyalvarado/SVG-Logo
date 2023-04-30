@@ -2,6 +2,7 @@ const inquirer = require("inquirer")
 const {Circle} = require("./Shape")
 const {Triangle} = require("./Shape")
 const {Square} = require("./Shape")
+const SVG = require("./logo.svg")
 
 inquirer
   .prompt([
@@ -43,4 +44,16 @@ inquirer
     console.log(shape)
   });
   
+  function writeToFile(fileName , data) {
+    return fs.writeFile(path.join(process.cwd(), fileName), data, err => console.log(err));
+    }
 
+    function init() {
+        inquirer.prompt()
+        .then((data) => {
+            console.log("Creating SVG File");
+            writeToFile('SVG', SVG({...data}));
+    });
+    }
+
+    init();
