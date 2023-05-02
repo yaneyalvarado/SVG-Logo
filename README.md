@@ -25,5 +25,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 - THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Mock-Up
+https://drive.google.com/file/d/1qSkxfy7yKiS54MbWkXHdJbkMp5PDE25I/view?usp=share_link
 
 ## GitHub
+https://github.com/yaneyalvarado/SVG-Logo
