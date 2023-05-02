@@ -12,19 +12,19 @@ class Shape {
 
 class Circle extends Shape {
     render() {
-return ` <circle cx="150" cy="100" r="80" fill="${this.color}" />`
+return ` <circle cx="150" cy="100" r="80" fill="${this.color}" />`;
     }
 }
 
 class Triangle extends Shape {
     render() {
-return `<triangle cx="150" cy="100" r="80" fill="${this.color}" />`
+return `<triangle cx="150" cy="100" r="80" fill="${this.color}" />`;
     }
 }
 
 class Square extends Shape {
     render() {
-return `<square cx="150" cy="100" r="80" fill="${this.color}" />`
+return `<square cx="150" cy="100" r="80" fill="${this.color}" />`;
     }
 }
 
